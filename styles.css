@@ -1,0 +1,133 @@
+/* Body */
+body {
+    font-family: 'Arial', sans-serif; /* Clean and modern font */
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Warm gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Login Container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Login Box Title */
+.login-container h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Inputs */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 16px;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #ff7e5f; /* Focused input field color */
+    outline: none;
+}
+
+/* Login Button */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #ff7e5f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #feb47b; /* Hover effect for the login button */
+}
+
+/* Error Message */
+#error-message {
+    font-size: 14px;
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Dashboard Images with Equal Size */
+.dashboard-img {
+    width: 200px;  /* Fixed width */
+    height: 200px;  /* Fixed height */
+    object-fit: cover;  /* Ensure aspect ratio is maintained */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);  /* Optional: adds shadow around images */
+}
+
+/* Container for the Product Links to ensure proper layout */
+.product-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Individual Product Link Styling */
+.product-link {
+    display: block;
+    text-align: center;
+    width: 200px;  /* Keep uniform width for each product link */
+    transition: transform 0.3s ease;
+}
+
+.product-link:hover {
+    transform: translateY(-5px); /* Hover effect */
+}
+
+.product-link p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Product Images Styling */
+.product-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.product-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
